@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor1">
+        <input type="text" id="input1" value="que tal">
+    </div>
+
+    <div style="border: 1px solid blue;">
+    <input type="button" onclick="document.getElementById('input1').value = 'HOLA PEPE'; confirm('QWERTY');" value="Botón"/>
+    </div>
+
+    <div class="contenedor3">
+        <input type="password"/>
+    </div>
+<br/>-----------------------------------------<br/>
+<div class="operaciones">
+    <input type="text" id="operador1" value=""/>
+    +
+    <input type="text" id="operador2" value=""/>
+    <input type="button" onclick="document.getElementById('resultado').value = 'parseInt(operador1) + parseInt(operador2)'; confirm('QWERTY');" value="Calcular"/>
+
+</div>
+
+<div id="Resultado">
+    <input type="text" id="resultado"/>
+</div>
+
+
+</body>
+</html>

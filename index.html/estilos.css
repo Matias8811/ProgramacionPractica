@@ -1,0 +1,36 @@
+body {
+    background-color: #ff0000;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    background-color: black; /* Color del fondo del footer */
+    color: #f3f0f0; /* Color del texto en el footer */
+    padding: 10px; /* Espaciado interno del footer */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer img {
+    float: left; /* Establece la imagen en el lado izquierdo */
+    margin-right: 10px; /* Añade un pequeño espacio entre la imagen y el texto */
+}
+
+.trabajos {
+   background-color: white;
+   border: 0.5px black solid;
+   margin-bottom: 10px;
+}
+
+.trabajos h2 {
+    text-align: left;
+    margin-top: auto;
+    margin-left: 22px;
+    text-decoration: underline red;
+
+}
+
+.trabajos ol {
+    color: blue;
+    font-weight: bolder;
+    
+}
+
